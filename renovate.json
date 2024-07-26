@@ -6,6 +6,7 @@
   "gitIgnoredAuthors": [
     "githubaction@githubaction.com"
   ],
+  "rebaseWhen": "never",
   "packageRules": [
     {
       "packageNames": [
