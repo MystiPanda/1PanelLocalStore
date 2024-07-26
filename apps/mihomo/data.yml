@@ -1,0 +1,20 @@
+name: Mihomo
+tags:
+  - 工具
+title: 基于规则分流的代理工具
+type: 工具
+description: 基于规则分流的代理工具
+additionalProperties:
+  key: mihomo
+  name: Mihomo
+  tags:
+    - Tool
+  shortDescZh: 基于规则分流的代理工具
+  shortDescEn: A rule based proxy in Go
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/MetaCubeX/mihomo
+  github: https://github.com/MetaCubeX/mihomo
+  document: https://wiki.metacubex.one/
