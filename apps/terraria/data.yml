@@ -1,0 +1,19 @@
+name: Terraria
+tags:
+  - 休闲游戏
+title: 泰拉瑞亚服务器
+description: 泰拉瑞亚是一款由 Re-Logic 开发的沙盒游戏，游戏中玩家可以挖掘、探险、建造、战斗、种植、合成物品等。泰拉瑞亚服务器是一个可以让玩家联机游玩的服务器。
+additionalProperties:
+  key: terraria
+  name: Terraria
+  tags:
+    - Game
+  shortDescZh: 泰拉瑞亚服务器是一个可以让玩家联机游玩的服务器
+  shortDescEn: Terraria is a sandbox game developed by Re-Logic. Players can explore, build, fight, plant, craft items, etc. The Terraria server is a server that allows players to play online.
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://terraria.fandom.com/
+  github: https://github.com/beardedio/terraria
+  document: https://github.com/beardedio/terraria

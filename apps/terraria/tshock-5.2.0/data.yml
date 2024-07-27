@@ -1,0 +1,17 @@
+additionalProperties:
+  formFields:
+    - default: 7777
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: terraria
+      edit: true
+      envKey: WORLD_NAME
+      labelEn: World Name
+      labelZh: 世界名称
+      required: true
+      type: text
