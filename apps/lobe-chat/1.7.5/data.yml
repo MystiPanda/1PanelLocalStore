@@ -38,7 +38,7 @@ additionalProperties:
       labelZh: OpenAI 模型列表
       required: false
       type: text
-    - default: ""
+    - default: "-welcome_suggest"
       edit: true
       envKey: FEATURE_FLAGS
       labelEn: Feature Flags
