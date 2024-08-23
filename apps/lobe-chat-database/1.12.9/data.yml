@@ -104,9 +104,9 @@ additionalProperties:
       type: text
     - default: ""
       edit: true
-      envKey: NEXT_PUBLIC_S3_DOMAIN
-      labelEn: Next Public S3 Domain
-      labelZh: Next 公共 S3 域
+      envKey: S3_PUBLIC_DOMAIN
+      labelEn: Public S3 Domain
+      labelZh: 公共 S3 域
       required: true
       type: text
     - default: "-welcome_suggest"
