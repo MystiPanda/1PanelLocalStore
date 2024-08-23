@@ -109,6 +109,13 @@ additionalProperties:
       labelZh: 公共 S3 域
       required: true
       type: text
+    - default: ""
+      edit: true
+      envKey: APP_URL
+      labelEn: APP URL
+      labelZh: APP URL
+      required: true
+      type: text
     - default: "-welcome_suggest"
       edit: true
       envKey: FEATURE_FLAGS
