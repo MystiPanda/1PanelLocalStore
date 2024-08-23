@@ -1,0 +1,118 @@
+additionalProperties:
+  formFields:
+    - default: 40247
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: ""
+      envKey: PANEL_DB_HOST
+      key: postgresql
+      labelEn: PostgreSQL Database Service
+      labelZh: PostgreSQL 数据库服务
+      required: true
+      type: service
+    - default: lobechat
+      envKey: PANEL_DB_NAME
+      labelEn: Database
+      labelZh: 数据库名
+      random: true
+      required: true
+      rule: paramCommon
+      type: text
+    - default: lobechat
+      envKey: PANEL_DB_USER
+      labelEn: User
+      labelZh: 数据库用户
+      random: true
+      required: true
+      rule: paramCommon
+      type: text
+    - default: lobechat
+      envKey: PANEL_DB_USER_PASSWORD
+      labelEn: Password
+      labelZh: 数据库用户密码
+      random: true
+      required: true
+      rule: paramComplexity
+      type: password
+    - default: ""
+      edit: true
+      envKey: KEY_VAULTS_SECRET
+      labelEn: Key Vaults Secret
+      labelZh: 密钥库密码
+      required: true
+      type: password
+    - default: ""
+      edit: true
+      envKey: NEXT_AUTH_SECRET
+      labelEn: Next Auth Secret
+      labelZh: Next Auth 密钥
+      required: true
+      type: password
+    - default: ""
+      edit: true
+      envKey: NEXTAUTH_URL
+      labelEn: Next Auth URL
+      labelZh: Next Auth URL
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: GITHUB_CLIENT_ID
+      labelEn: GITHUB Client ID
+      labelZh: GITHUB 客户端 ID
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: GITHUB_CLIENT_SECRET
+      labelEn: GITHUB Client Secret
+      labelZh: GITHUB 客户端密钥
+      required: true
+      type: password
+    - default: ""
+      edit: true
+      envKey: S3_ACCESS_KEY_ID
+      labelEn: S3 Access Key ID
+      labelZh: S3 访问密钥 ID
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: S3_SECRET_ACCESS_KEY
+      labelEn: S3 Secret Access Key
+      labelZh: S3 秘密访问密钥
+      required: true
+      type: password
+    - default: ""
+      edit: true
+      envKey: S3_ENDPOINT
+      labelEn: S3 Endpoint
+      labelZh: S3 端点
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: S3_BUCKET
+      labelEn: S3 Bucket
+      labelZh: S3 存储桶
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: NEXT_PUBLIC_S3_DOMAIN
+      labelEn: Next Public S3 Domain
+      labelZh: Next 公共 S3 域
+      required: true
+      type: text
+    - default: "-welcome_suggest"
+      edit: true
+      envKey: FEATURE_FLAGS
+      labelEn: Feature Flags
+      labelZh: 功能标志
+      required: false
+      type: text
