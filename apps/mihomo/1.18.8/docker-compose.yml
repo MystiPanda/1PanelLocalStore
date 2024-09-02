@@ -5,6 +5,6 @@ services:
     network_mode: "host"
     volumes:
       - ${CONFIG_DIR}:/root/.config/mihomo
-    image: metacubex/mihomo:v1.18.7
+    image: metacubex/mihomo:v1.18.8
     labels:
       createdBy: "Apps"
