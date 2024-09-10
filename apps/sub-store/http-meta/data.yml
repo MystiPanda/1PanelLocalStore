@@ -15,3 +15,10 @@ additionalProperties:
       labelZh: 配置目录
       required: true
       type: text
+    - default: ""
+      edit: true
+      envKey: ENCRYPTION_KEY
+      labelEn: Encryption Key
+      labelZh: 加密密钥
+      required: true
+      type: password
